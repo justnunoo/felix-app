@@ -1,5 +1,6 @@
 import HeroSection from '@/components/HeroSection';
 import RegistrationForm from '@/components/RegistrationForm';
+import MissionVisionSection from '@/components/Section';
 import Link from 'next/link';
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <HeroSection />
+      <MissionVisionSection />
 
       {/* Registration Section */}
       <section className="py-16 bg-white">
